@@ -23,30 +23,3 @@ or by using the underlying templates directly (similar to C++11's `std::mt19937`
 Visit [PCG-Random website] for information on how to use this library, or look
 at the sample code in the `sample` directory -- hopefully it should be fairly
 self explanatory.
-
-## Building
-
-The code is written in C++11, as an include-only library (i.e., there is
-nothing you need to build).  There are some provided demo programs and tests
-however.  On a Unix-style system (e.g., Linux, Mac OS X) you should be able
-to just type
-
-    make
-
-To build the demo programs.
-
-## Testing
-
-Run
-
-    make test
-
-## Directory Structure
-
-The directories are arranged as follows:
-
-* `include` -- contains `pcg_random.hpp` and supporting include files
-* `test-high` -- test code for the high-level API where the functions have
-  shorter, less scary-looking names.
-* `sample` -- sample code, some similar to the code in `test-high` but more 
-  human readable, some other examples too
